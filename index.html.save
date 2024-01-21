@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css"></link>
     <title>Sara's Portfolio</title>
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="favicon.ico?"/>
+    <link rel="favicon" type="/home/cattelia/github/cattelia.github.io/image/x-icon" href="image/favicon.ico"/>
 </head>
 
 <body>
