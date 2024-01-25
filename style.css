@@ -1,0 +1,30 @@
+/* Adding custom Fonts */
+
+@font-face {
+    font-family: 'Brolimo';
+    src: url(fonts/BROLIMO-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Quicksand';
+    src: url(fonts/Quicksand-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(fonts/Poppins-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+
+/* Text */
+
+h1 {
+    font-family: 'Brolimo', sans-serif;
+    font-size: large;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+
+
