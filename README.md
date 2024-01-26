@@ -1,6 +1,6 @@
  cattelia.github.io
 Portfolio
-
-Inspired by: AsmrProg
-ParticleJS created by: Vincent Garreau
+<br><br>
+Inspired by: AsmrProg <br>
+ParticleJS created by: Vincent Garreau <br>
 Github resources and instructions: https://github.com/VincentGarreau/particles.js/blob/master/README.md
