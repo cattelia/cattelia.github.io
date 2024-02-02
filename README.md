@@ -5,7 +5,7 @@
 
 ### Tools and Software
 > ParticleJS created by: [Vincent Garreau](https://github.com/VincentGarreau/particles.js) <br>
-> Lightweight reactive mobile framework: [Skeleton](https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css)
+> Lightweight reactive display framework: [Skeleton](https://cdnjs.com/libraries/skeleton)
 
 ### Ask Life for a Penny Poem
 #### _Jessie R. Rittenhouse_
