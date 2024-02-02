@@ -20,7 +20,7 @@
 
 h1.header { /* Welcome Header */
     font-family: 'Brolimo', sans-serif;
-    font-size: 3.5rem;
+    font-size: 4.0rem;
     font-weight: light;
     color: #e91e63;
 }
@@ -50,14 +50,14 @@ a:hover { /* Hover over Hyperlinks*/
     box-sizing: border-box;
 }
 
-body {
+body { /* Background color 232029 , 2a2b32 */
     font-family: 'Poppins', sans-serif;
     height: 100%;
-    background: #2a2b32;
-    
+    background: #232029; 
 }
 
 .mb, p {
+    margin-top: 4%;
     margin-bottom: 3rem;
     color: #ccc;
 }
@@ -74,6 +74,7 @@ body {
     font-size: 2.5rem;
 }
 
+/* Footer and Goodbyes */
 .footer {
     margin-top: 6rem;
 }
@@ -84,7 +85,7 @@ body {
 }
 
 /* Beautification */
-.links-list ul li span { /* Span Note */
+.links-list ul li span { /* Span ID */
     background-color: #e91e63;
     font-size: 1.2rem;
     border-radius: 10px;
@@ -95,10 +96,9 @@ body {
 }
 
 
-
-canvas { /* Where the particles can go */
+canvas { /* Particle Canvas */
     height: 100vh;
     z-index: -100000;
     position: fixed;
-    top: 0px;
+    top: 200px;
 }

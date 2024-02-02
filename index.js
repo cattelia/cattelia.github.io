@@ -1,3 +1,6 @@
+// The settings for particle JS background effects
+// github.com/VincentGarreau/particles.js
+
 particlesJS("background", {
 
     particles: {
@@ -13,7 +16,7 @@ particlesJS("background", {
             value: "#e91e63", // Particles color
         },
         shape: {
-            type: "circle", // Shape type
+            type: ["circle", "polygon"], // Shape type
         },
         opacity: {
             value: 0.8, // Base opacity of particles
