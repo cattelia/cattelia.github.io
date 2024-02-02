@@ -1,7 +1,7 @@
 ## Sara's Portfolio
 
 ### Credit Where Credit is Due <br>
-> Inspired by: [AsmrProg](https://github.com/AsmrProg-YT)<br>
+> Design inspired and guided by: [AsmrProg](https://github.com/AsmrProg-YT)<br>
 
 ### Tools and Software
 > ParticleJS created by: [Vincent Garreau](https://github.com/VincentGarreau/particles.js) <br>
