@@ -107,9 +107,9 @@ body { /* Background color 232029 , 2a2b32 */
     color: #ccc;
 }
 
-/* ---------------------------------IMG PDF--------------------------------- */
+/* -------------------------------MAIN IMG------------------------------- */
 .main {
-    height: 1250px;
+    height: 1350px; /* How far down .main starts from the top */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,9 +121,32 @@ body { /* Background color 232029 , 2a2b32 */
     width: 750px; /* flexes to the percentage of the page */
 }
 
-.main span.name {
+.main h3 {
+    font-size: 25px;
+}
+
+.main span.name { /* "Sara" */
     font-family: 'Brolimo', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     font-weight: 600;
     color: #e91e63;
+    text-decoration: underline;
+}
+
+.main p.welcome {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.main p.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.main p.subtitle {
+    font-size: 20px;
+    margin-top: 10px; 
+    font-style: italic;
 }
