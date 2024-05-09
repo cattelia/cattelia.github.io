@@ -17,236 +17,113 @@
     font-weight: normal;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /*color: #ccc;*/
+    color: #232029;
+}
 
 /* -------------------------------HOME PAGE------------------------------- */
 
-/* Text */
-
-h1.header { /* Welcome Header */
-    font-family: 'Brolimo', sans-serif;
-    font-size: 4.0rem;
-    font-weight: light;
-    color: #e91e63;
-}
-
-h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    font-size: x-large;
-}
 
 
-a { /* Hyperlinks */
-    font-family: 'Quicksand', sans-serif;
-    font-size: medium;
-    color: #ccc;
+/* -------------------------------HYPERLINK------------------------------- */
+
+a { /* Universal Hyperlinks */
     text-decoration: none;
-    transition: 0.3s;
+    transition: .4s; /* How long it takes for effect to "wear off" from a:hover */
+    color: #ccc;
 }
 
 a:hover { /* Hover over Hyperlinks*/
     color: #e91e63;
+    transition: color .4s ease; /* Cool color transition effect upon a:hover */ 
 }
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+
+
+/* ----------------------------------BODY---------------------------------- */
+
+
+body { /* Background color 232029 , 2a2b32 */
+    height: 100vh;
+    /* background: #232029; */
+    background: #ccc; 
 }
 
-body.index { /* Background color 232029 , 2a2b32 */
-    font-family: 'Poppins', sans-serif;
-    height: 100%;
-    background: #232029; 
+
+/* ---------------------------------NAVBAR--------------------------------- */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px; /* Round button edges */   
+    height: 80px;
+    padding: 0 50px;
+    background-color: #232029;
 }
 
-.mb, p {
-    margin-top: 4%;
-    margin-bottom: 3rem;
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none; /* Removes the list symbols */
+}
+
+.navbar ul li:last-child a {
+    margin: 0; /* Targets last element in navbar list, "About", and makes margin 0 */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px; /* Space between "buttons" */
+}
+
+.navbar h1.logo { /* Welcome ""logo"" */
+    font-family: 'Brolimo', sans-serif;
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #e91e63;
+}
+
+.navbar a button { /* Download Resume Button */
+    color: #232029;
+    font-weight: bold;
+    padding: 6px 25px;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px; /* Round button edges */
+    transition: background-color 0.3s ease;
+}
+
+.download:hover {
+    background: #e91e63;  
     color: #ccc;
 }
 
-.links-list ul li{
-    list-style: none;
-    margin-right: 2rem;
-    font-size: 1.8rem;
-    margin-bottom: 0;
-}
-
-.links-list h1 {
-    color: #fff;
-    font-size: 2.5rem;
-}
-
-/* Footer and Goodbyes */
-.footer {
-    margin-top: 6rem;
-}
-
-.footer p {
-    color: #fff;
-    font-size: 1.3rem;
-}
-
-/* Beautification */
-.links-list ul li span { /* Span ID */
-    background-color: #e91e63;
-    font-size: 1.2rem;
-    border-radius: 10px;
-    padding: 3px 6px;
-    font-weight: bold;
-    margin-left: 0.5rem;
-    color: #fff;
-}
-
-
-canvas { /* Particle Canvas */
-    height: 100vh;
-    z-index: -100000;
-    position: fixed;
-    top: 200px;
-}
-
-/* -------------------------------NAVIGATION------------------------------- */
-
-nav{
-    padding: 20px 120px;
+/* ---------------------------------IMG PDF--------------------------------- */
+.main {
+    height: 1250px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-
-}
-
-body.calculator a{
-    color:#ffffff;
-    font-weight: bold;
-}
-
-body.calculator a:hover{
-    color: #e91e63;
-}
-
-nav a.selected{ /* Home button */
-    font-family: 'Brolimo', sans-serif;
-    font-size: 2.0rem;
-    font-weight: light;
-    color: #e91e63;
-}
-
-/* -------------------------------CALCULATOR------------------------------- */
-
-html.calculator{
-    box-sizing: border-box;
-    height: 100%
-}
-
-
-*,
-*::before,
-*::after{
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
-} 
-
-
-body.calculator .wrapper{
-    align-items: center;
-    background: linear-gradient(320deg, #eb92be, #ffef78);
-    display: flex;
-    font-family: 'Dosis', sans-serif;
-    font-display: swap;
-    height: inherit;
     justify-content: center;
+    padding: 5%;
 }
 
-.wrapper{
-    backdrop-filter: blur(5.5px);
-    -webkit-backdrop-filter: blur(5.5px);
-    background: rgba(255,255,255,0.75);
-    border: 1px solid rgba(255, 255, 255, 0.01);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
-    color: #232323;
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    background: rgba(255, 255, 255, 0.30);
-    border: 1px solid rgba(255, 255, 255, 0.34);
-    flex-basis: 400px;
-    height: 540px;
-    padding: 20px 35px;
+.main img {
+    width: 750px; /* flexes to the percentage of the page */
 }
 
-.screen{
-    backdrop-filter: blur(5.5px);
-    -webkit-backdrop-filter: blur(5.5px);
-    background: rgba(255, 255, 255, 0.75);
-    border: 1px solid rgba(255, 255, 255, 0.01);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
-    color: #232323;
-    font-size: 35px;
-    overflow: auto;
-    padding: 20px;
-    text-align: right;
-    width: 326px;
+.main span.name {
+    font-family: 'Brolimo', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #e91e63;
 }
-
-.calc-button-row{
-    display: flex;
-    justify-content: space-between;
-    margin: 5% 0;
-}
-
-.calc-button{
-    backdrop-filter: blur(5.5px);
-    -webkit-backdrop-filter: blur(5.5px);
-    background: rgba(255, 255, 255, 0.75);
-    border: 1px solid rgba(255, 255, 255, 0.01);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
-    color: #232323;
-    flex-basis: 20%;
-    font-family: inherit;
-    font-size: 24px;
-    height: 65px;
-}
-
-.calc-button:last-child{
-    backdrop-filter: blur(5.5px);
-    -webkit-backdrop-filter: blur(5.5px);
-    background: rgba(255, 255, 255, 0.75);
-    border: 1px solid rgba(255, 255, 255, 0.01);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
-    color: #ff3;
-    background: #d72890 10%;
-}
-
-.calc-button:last-child:hover{
-    background-color: inherit;
-    color: inherit;
-}
-
-.calc-button:hover{
-    background-color: inherit;
-}
-
-.calc-button:last-child:active{
-    background-color: #ffef78;
-    color: #d72890;
-}
-
-.calc-button:active{
-    background-color: #ffef78;
-}
-
-.double{
-    flex-basis: 47%;
-}
-
-.triple{
-    flex-basis: 75%;
-}
-
-
