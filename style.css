@@ -60,8 +60,7 @@ body { /* Background color 232029 , 2a2b32 */
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    border-radius: 6px; /* Round button edges */   
+    justify-content: space-between; 
     height: 80px;
     padding: 0 50px;
     background-color: #232029;
