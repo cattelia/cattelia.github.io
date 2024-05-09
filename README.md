@@ -30,5 +30,3 @@ Hi, I'm Sara and welcome to my page! <br>
 > Only to learn, dismayed,
 > That any wage I had asked of Life,
 > Life would have willingly paid.”
-
-Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
