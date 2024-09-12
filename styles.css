@@ -510,6 +510,12 @@ footer {
     margin-bottom: 20px;
 }
 
+@media (min-width: 1200px) {
+    .footer__row {
+        padding: 3%;
+    }
+}
+
 /* RESPONSIVE DETAILING */
 /* Smartphones and small tablets */
 @media (max-width: 768px) {
