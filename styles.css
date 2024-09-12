@@ -353,6 +353,10 @@ nav {
 
 }
 
+.github {
+    transform: scale(1.25);
+}
+
 .language {
     width: 33%;
     display: flex;
@@ -386,6 +390,10 @@ nav {
 .language:hover .language__name {
     transform: scale(1);
     opacity: 1;
+}
+
+.pad-top {
+    margin-top: 8px;
 }
 
 /* PROJECTS */
