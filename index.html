@@ -14,40 +14,295 @@
     />
 
     <title>Sara's Spot</title>
-    <link rel="stylesheet" href="style.css" />
+    <!-- Icons -->
+    <script
+    src="https://kit.fontawesome.com/c8e4d183c2.js"
+    crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
     <!-- Favicon -->
     <link rel="icon" href="./favicon.ico" />
   </head>
-
   <body>
-    <div class="navbar">
-      <!--"" Logo ""-->
-      <h1 class="logo">Welcome</h1>
-      <ul class="nav-links">
-        <li class="nav-link"><a href="index.html">Home</a></li>
-        <li class="nav-link"><a href="portfolio.html">Portfolio</a></li>
-        <li class="nav-link"><a href="about.html">About</a></li>
-      </ul>
-      <!--"" THIS NEEDS TO BE REPLACED WITH UPDATED RESUME""-->
-      <a href="img/chocobi.png" download="Sara Eilenstine CV"
-        ><button class="download" type="button">Download Resume</button></a
-      >
-    </div>
+    <section id="about-me">
+      <nav>
+        <div class="personal__logo text--pink text--name">Sara Eilenstine</div>
+        <ul class="nav__link--list">
+          <li class="nav__link">
+            <a href="#languages" class="
+            nav__link--anchor
+            link__hover-effect
+            link__hover-effect--black
+          ">Technology</a>
+          </li>
+          <li class="nav__link">
+            <a href="#projects" class="
+            nav__link--anchor
+            link__hover-effect
+            link__hover-effect--black
+          ">Projects</a>
+          </li>
+          <li class="nav__link">
+            <a href="mailto:sara.eilenstine@email.com" class="
+            nav__link--anchor
+            nav__link--anchor-primary
+          ">Contact</a>
+          </li>
+        </ul>
+      </nav>
 
-    <div class="main">
-      <h3>Hi, I'm <span class="name">Sara</span>!</h3>
-      <p class="welcome">Welcome to my little corner on the internet.</p>
-      <p class="title">Software Developer with a penchant for Python</p>
-      <p class="subtitle">
-        Combining years of business process development and automation, I'm here
-        to help close business gaps through software solutions.
-      </p>
-      <br />
-      <!-- This is where the finished Resume will go.-->
-      <img src="img/chocobi.png" />
-    </div>
+      <div class="flex flex-1">
+        <div class="about-me__info row">
+          <div class="about-me__info--container">
+            <figure class="about-me__picture--mask">
+              <img src="assets/headshot.JPG" class="about-me__picture" alt="" />
+            </figure>
+            <h1 class="about-me__info--title">
+              Hello, I'm <span class="text--pink text--name">Sara!</span>
+              <span class="coffee_container"> ~ <span class="coffee">☕</span> 
+                <div class="steam" id="steam1"></div>
+                <div class="steam" id="steam2"></div>
+                <div class="steam" id="steam3"></div>
+                <div class="steam" id="steam4"></div>
+              </span>
+            </h1>
+            <p class="about-me__info--para">
+              I'm a
+              <strong class="text--pink">software developer</strong> with frontend and backend
+              experience. With my combined skills of
+              program management, automation, leadership, and stakeholder
+              communications, I bring a unique perspective and passion for
+              building clean, minimalist tools and applications that both companies and
+              customers need.
+            </p>
+            <div class="about-me__links">
+              <a
+                href="https://www.linkedin.com/in/saraeilenstine/"
+                target="_blank"
+                class="about-me__link"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a
+                href="https://www.github.com/cattelia"
+                target="_blank"
+                class="about-me__link"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="mailto:sara.eilenstine@gmail.com" class="about-me__link"
+                ><i class="far fa-envelope"></i
+              ></a>
+              <a href="./assets/resume.pdf" target="_blank" class="about-me__link"
+                ><i class="fa fa-file"></i
+              ></a>
+            </div>
+          </div>
+
+          <figure class="about-me__img--container">
+            <img
+              src="./assets/undraw_programming.svg"
+              class="about-me__img"
+              alt=""
+            />
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section id="languages">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            My <span class="text--pink">technology stack</span>
+          </h1>
+          <div class="language__list">
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg"
+                  class="language__img"
+                  alt=""
+                />
+              </figure>
+              <span class="language__name">Python</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                  class="language__img"
+                  alt=""
+                />
+              </figure>
+              <span class="language__name">HTML 5</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png" alt="CSS Logo"
+                  class="language__img" />
+              </figure>
+              <span class="language__name">CSS 3</span>
+            </div>
+
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
+                  class="language__img"
+                  alt=""
+                />
+              </figure>
+              <span class="language__name">Javascript</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/typescript-3521774-2945272.png"
+                  class="language__img"
+                  alt=""
+                />
+              </figure>
+              <span class="language__name">Typescript</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
+                  class="language__img"
+                  alt=""
+                />
+              </figure>
+              <span class="language__name">React</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://book.git-scm.com/images/logos/downloads/Git-Icon-1788C.svg"
+                  class="language__img"
+                  alt=""
+                />
+              </figure>
+              <span class="language__name">Git</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="./assets/terminal.svg"
+                  class="language__img"
+                  alt=""
+                />
+              </figure>
+              <span class="language__name">Terminal</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <svg class="language__img"
+                                    width="76"
+                                   height="65"
+                              viewBox="0 0 76 65"
+                  fill="none" xmlns="http://www.w3.org/2000/svg"><path
+            d="M37.5274 0L75.0548 65H0L37.5274 0Z" fill="#000000"/></svg>
+              </figure>
+              <span class="language__name">Vercel</span>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            Here are some of my <span class="text--pink">projects</span></h1>
+
+            <ul class="project__list">
+              
+
+              <li class="project">
+                <div class="project__wrapper">
+                  <img
+                    src="./assets/boot.JPG"
+                    class="project__img"
+                    alt="Boot.dev"
+                  />
+                  <div class="project__description">
+                    <h3 class="project__description--title">Backend Programming</h3>
+                    <h4 class="project__description--subtitle">Python, Shell, Go, Git, OOP, Docker, Kubernetes</h4>
+                    <p class="project__description--para"> The sure way to become a great developer is to write a lot of code, Boot.dev uses gamification and industry tools to get me real world skills through projects, lessons and coaching.</p>
+                    <div class="project__description--links">
+                      <a href="https://www.github.com/cattelia/Boot.dev" target="_blank" class="project__description--link"><i class="fab fa-github"></i></a>
+                      <a href="https://www.boot.dev/u/cattelia" target="_blank" class="project__description--link"><i class="fas fa-link"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="project">
+                <div class="project__wrapper">
+                  <img
+                    src="./assets/e-Commerce.JPG"
+                    class="project__img"
+                    alt="Incrementu"
+                  />
+                  <div class="project__description">
+                    <h3 class="project__description--title">e-Commerce Store Front for Incrementu</h3>
+                    <h4 class="project__description--subtitle">Html, CSS, Javascript, Vercel</h4>
+                    <p class="project__description--para">The only e-Commerce brand that is focused on helping post-graduates take control of their life and money after graduating. Incrementu helps get your money straight so you don't fall into the debt-hole and enjoy life with your new found knowledge.</p>
+                    <div class="project__description--links">
+                      <a href="https://github.com/cattelia/incrementu" target="_blank" class="project__description--link"><i class="fab fa-github"></i></a>
+                      <a href="https://incrementu.vercel.app/" target="_blank" class="project__description--link"><i class="fas fa-link"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="project">
+                <div class="project__wrapper">
+                  <img
+                    src="./assets/dashboard.png"
+                    class="project__img"
+                    alt="Boot.dev"
+                  />
+                  <div class="project__description">
+                    <h3 class="project__description--title">Sales Dashboard</h3>
+                    <h4 class="project__description--subtitle">HTML, CSS, Javascript, Vue, Vuex</h4>
+                    <p class="project__description--para">Lorem ipsum dolor, sit ametLorem ipsum dolor, sit amet consLorem ipsum dolor, sit amet consLorem ipsum dolor, sit amet consLorem ipsum dolor, sit amet cons consectetur adipisicing elit. Et, tempora.</p>
+                    <div class="project__description--links">
+                      <a href="https://www.github.com/cattelia/Boot.dev" target="_blank" class="project__description--link"><i class="fab fa-github"></i></a>
+                      <a href="https://www.boot.dev/u/cattelia" target="_blank" class="project__description--link"><i class="fas fa-link"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              
+            </ul>
+        </div>
+      </div>
+    </section> <!-- END PROJECTS -->
+    <footer>
+      <div class="row footer__row">
+        <a href="#" class="footer__anchor"> <!-- LOGO / Figure -->
+          <figure class="footer__logo">
+            <span class="text--pink text--name footer__logo--img">Sara ~☕</span> 
+          </figure>
+        </a>
+        <div class="footer__social--list">
+          <a href="https://www.github.com/cattelia" class="footer__social--link
+          link__hover-effect
+          link__hover-effect--white" target="_blank">Github</a>
+          <a href="https://www.linkedin.com/in/saraeilenstine/" class="footer__social--link
+          link__hover-effect
+          link__hover-effect--white" target="_blank">LinkedIn</a>
+          <a href="mailto:sara.eilenstine@gmail.com" class="footer__social--link
+          link__hover-effect
+          link__hover-effect--white" target="_blank">Email</a>
+          <a href="./assets/resume.png" class="footer__social--link
+          link__hover-effect
+          link__hover-effect--white" target="_blank">Resume</a>
+        </div>
+        <div class="footer__copyright">Copyright &#169 2024 Sara Eilenstine</div>
+      </div>
+    </footer> <!-- END FOOTER -->
+
+
   </body>
-
-  <!-- Scripts -->
-  <script src=""></script>
 </html>
