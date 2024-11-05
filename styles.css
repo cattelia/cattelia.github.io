@@ -340,6 +340,11 @@ nav {
 
 /* TECH STACK */
 
+.zoomImage {
+    /*Used to make the new git PNG bigger*/
+    transform: scale(105%);
+}
+
 .language__img {
     width: 100%;
     max-width: 100px;
