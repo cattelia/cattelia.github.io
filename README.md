@@ -3,11 +3,11 @@
 Hi, I'm Sara and welcome to my page! <br>
 
 ### Tools, Tech Stack, and Software
-> Github Pages
-> GoDaddy: domain address registration
-> Markdown Renderer: [Docsify](https://docsify-this.net/)
-> Vercel: internal project hosting
-> Languages & tools: Python, HTML, CSS, Javascript, git, VSCode
+- Github Pages
+- GoDaddy: domain address registration
+- Markdown Renderer: [Docsify](https://docsify-this.net/)
+- Vercel: internal project hosting
+- Languages & tools: Python, HTML, CSS, Javascript, git, VSCode
 
 ### You earn the life you want and it doesn't come free.
 
