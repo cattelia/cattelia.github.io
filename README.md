@@ -2,15 +2,12 @@
 
 Hi, I'm Sara and welcome to my page! <br>
 
-### Credits <br>
-
-> Inspired by: [AsmrProg](https://github.com/AsmrProg-YT)<br>
-
-### Tools and Software
-
-> ParticleJS created by: [Vincent Garreau](https://github.com/VincentGarreau/particles.js) <br>
-> Lightweight reactive display framework: [Skeleton](https://cdnjs.com/libraries/skeleton) <br>
+### Tools, Tech Stack, and Software
+> Github Pages
+> GoDaddy: domain address registration
 > Markdown Renderer: [Docsify](https://docsify-this.net/)
+> Vercel: internal project hosting
+> Languages & tools: Python, HTML, CSS, Javascript, git, VSCode
 
 ### You earn the life you want and it doesn't come free.
 
