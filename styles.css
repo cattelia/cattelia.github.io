@@ -278,6 +278,7 @@ nav {
     width: 100%;
     /*Improving photo composition*/
     transform: scale(1.00);
+    transform: translateY(5px);
     /*padding-top: 4px;*/
 }
 
