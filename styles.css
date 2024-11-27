@@ -277,7 +277,7 @@ nav {
 .about-me__picture {
     width: 100%;
     /*Improving photo composition*/
-    transform: scale(1.25);
+    transform: scale(1.00);
     padding-top: 4px;
 }
 
